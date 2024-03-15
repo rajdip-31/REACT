@@ -1,0 +1,54 @@
+.board{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    color: var(--text);
+
+}
+.qry{
+    font-size:xx-large;
+    font-weight: 600;
+}
+
+.chooseRole{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+button{
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+}
+/* Rajdip's CSS */
+.attackBtn{
+    font-weight: bolder;
+    font-size: 28px;
+
+    transition: all;
+    transition-duration: 0.6s;
+    transition-timing-function:ease-in;
+    transition-delay: 0ms;
+}
+.attackBtn:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+
+}
+.defendBtn{
+    font-weight: bolder;
+    font-size: 28px;
+
+    transition: all;
+    transition-duration: 0.6s;
+    transition-timing-function:ease-in;
+    transition-delay: 0ms;
+}
+.defendBtn:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
